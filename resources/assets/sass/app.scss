@@ -1,0 +1,33 @@
+// Colors
+$white: #fff;
+$black: #000;
+$trans: 0.9;
+
+$brand-primary: $black;
+$brand-success: #134414;
+$brand-info: #cc0000;
+$brand-warning: #FCD116;
+$brand-danger: #FA6900;
+
+// Borders
+$border-radius-base: 0;
+$border-radius-small: 0;
+$border-radius-large: 0;
+
+// Navbar
+$navbar-default-bg: rgba($brand-primary, $trans);
+$navbar-default-link-active-color: $white;
+$navbar-default-link-active-bg: $black;
+
+$panel-primary-heading-bg: rgba($brand-primary, $trans);
+
+// Import Twitter Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// Import Font Awesome
+@import "node_modules/font-awesome/scss/font-awesome";
+
+body
+{
+    padding-bottom: 70px; 
+    position: relative;
+}
